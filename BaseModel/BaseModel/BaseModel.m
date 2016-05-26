@@ -134,6 +134,7 @@
     NSDictionary * dic =@{@"类本身属性名称":@"jeson字典中名称"};
     return([dic valueForKey:key]==nil)?nil:dic[key];
 }
+
 -(NSDictionary*)valueForUnDefine{
     NSDictionary * dic =@{@"类本身属性名称":@"jeson字典中名称"};
     return dic;
